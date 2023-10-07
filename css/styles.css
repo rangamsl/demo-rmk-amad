@@ -1,0 +1,172 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:#222 ;
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: #010e34;
+}
+h1 , h2 {
+    padding: 0px;
+    margin: 0px;
+    color: #222;
+}
+p {
+    font-size: 16px;
+    line-height:21px;
+    letter-spacing: 0.5px;
+    color: #222;
+    font-weight: 400;
+}
+.clear {
+    clear: both;
+}
+header {
+    background-color: #010e34;
+    padding: 25px 0 40px;
+    border-bottom: 1px solid #d6d6d6;
+}
+header h1 {
+    font-size:28px;
+    text-align: center;
+    color: #d6d6d6;
+    padding-bottom: 5px;
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+.main-wrapper nav {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    top: -30px;
+}
+.main-wrapper nav ul li  {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+.main-wrapper nav ul li a {
+    
+    font-size: 18px;
+}
+
+.about-section {
+ padding: 100px 0px 0px;
+
+}
+.about-text-wrapper {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+.about-text-wrapper h2 {
+    font-size: 26px;
+    
+}
+.about-img-wrapper {
+    float: right;
+    width: 40%;
+  
+}
+.about-img  {
+    margin: auto;
+    text-align: center;
+    
+}
+.about-img img{
+    border-radius: 300px;
+    border: 1px solid #eeeeee;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.my-work-section {
+    padding: 50px 20px 50px;
+   
+    margin: 30px 0px;
+}
+.my-work-section  h2 {
+    font-size: 26px;
+    
+}
+.my-work-img-div div{
+    float: left;
+    width: 21%;
+    padding-right: 53px;
+    margin-top: 30px;
+}
+.my-work-img-div div:last-child{
+   
+    padding-right: 0px;
+    
+}
+.contact-section {
+        margin:50px 0px;
+}
+.contact-form {
+
+    width: 50%;
+    margin: auto;
+    border: 1px solid #1b1b1b;
+    border-radius: 15px;
+    padding: 50px;
+  
+}
+
+.contact-form input , .contact-form textarea  {
+    border: 1px solid #1b1b1b;
+    padding: 15px 10px;
+    color: #222;
+    margin-bottom: 20px;
+    width: 97%;
+    font-size:16px ;
+    outline: none;
+}
+.contact-form  button {
+   margin: auto;
+    padding:15px 20px;
+    border-radius: 10px;
+    background: #23957c;
+    border: 1px solid #4dccce;
+    width: 150px;
+    font-size: 18px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer {
+    background: #001a2b;
+    padding: 30px;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.callme {
+    background: rgb(179, 226, 250);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #85c8f8;
+    cursor: pointer;
+}

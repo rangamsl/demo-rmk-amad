@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            padding: 2px;
+            border: 3px solid green;
+            text-align: center;
+            width: 100px;
+        }
+    </style>
+<script>
+    var count=0;
+var dbUsername="rashmi";
+var dbPassword="password";
+
+function checkUserNameAndPassword(){
+    var userName= document.getElementById('username').value;
+    var password= document.getElementById('password').value;
+    if(userName==dbUsername&& password==dbPassword){
+        alert("Login Success")
+    }else{
+                count++
+                if(count<5){
+                    document.getElementById('username').value=""
+                    document.getElementById('password').value=""
+                    alert("Login Failed")
+                }else{
+                    alert("You have reached 5 attempts and your account is blocked")
+                }
+            }
+}
+</script>
+</head>
+<body>
+    <input type="text" placeholder="Enter Username" id="username">
+    <br/>
+    <br/>
+    <input type="password" placeholder="Enter Password" id="password">
+    <br/>
+    <br/>
+    <button onclick="checkUserNameAndPassword()" class="button">Login</button>
+
+
+ 
+
+
+
+
+
+</body>
+</html>

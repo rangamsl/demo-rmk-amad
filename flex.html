@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .div1 {
+            flex: 1;
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+        .div2 {
+            flex: 3;
+            background-color:cadetblue; padding: 20px;
+        }
+        .div3 {
+            flex: 2;
+            background-color:chocolate; padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p class="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis vero ullam sit magni repellat esse.
+            Consequuntur dignissimos voluptatum excepturi quia modi quidem, cum, ratione illum assumenda reprehenderit
+            obcaecati sequi?</p>
+        <p class="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis vero ullam sit magni repellat esse.
+            Consequuntur dignissimos voluptatum excepturi quia modi quidem, cum, ratione illum assumenda reprehenderit
+            obcaecati sequi?</p>
+        <p class="div3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis vero ullam sit magni repellat esse.
+            Consequuntur dignissimos voluptatum excepturi quia modi quidem, cum, ratione illum assumenda reprehenderit
+            obcaecati sequi?</p>
+    </div>
+
+    <button onclick="saveStudent()">Clik Me</button>
+    <hr/>
+    <br><br/>
+    <form>
+        <input type="email" placeholder="Email" id="loginEmail" />
+        <br><br>
+        <input type="password" placeholder="Password" id="loginPassword" />
+        <br>
+        <button onclick="login()">Login</button>
+        <h1 id="result"></h1>
+
+        <br><br>
+        <input type="number" placeholder="Enter Number 1" id="num1" />
+        <input type="number" placeholder="Enter Number 2" id="num2" />
+
+       
+    </form>
+ <button onclick="addition()">+</button>
+        <button  onclick="mine()">-</button>
+        <button onclick="multiply()">X</button>
+        <button  onclick="devide()">/</button>
+
+        <h1 id="sum"></h1>
+
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option> 
+    </select>
+    <br/><br/>
+
+    <input placeholder="Enter a month" id="month">
+    <button onclick="getMonth()">Get Sinhala  Name </button>
+
+    <h1 id="monthRes"></h1>
+
+    <br><br>
+    <input placeholder="userName" id="userName">
+    <button onclick="getCharacters()">Get Characters</button>
+    <br>
+    <h1 id="charAt"></h1>
+
+     <br><br> <br><br>
+
+    
+        <input id="userId" placeholder="User Id">
+        <br>
+        <input type="text" id="title" placeholder="Title">
+        <br>
+        <input type="text" id="body" placeholder="Message">
+
+        <button onclick="savePost()">Post</button>
+    
+    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
